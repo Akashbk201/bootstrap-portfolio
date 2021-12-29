@@ -1,0 +1,176 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+  .about-me-sec {
+    height: 520px;
+  }
+
+  .about-me-table {
+    height: 520px;
+  }
+
+  .banner-text h3 {
+    font-size: 28px;
+  }
+
+  .portfolio-post img {
+    height: 130px;
+  }
+
+  .portfolio-button-sec {
+    padding-bottom: 30px;
+  }
+
+  .portfolio-post-all {
+    padding-bottom: 10px;
+  }
+
+  .power-zoom-sec {
+    padding-top: 10px;
+  }
+
+  .banner-sec {
+    height: 450px;
+  }
+
+  .banner-table {
+    height: 450px;
+  }
+
+  .banner-im-sec img {
+    height: 450px;
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+  .zoom-img img {
+    width: 100%;
+  }
+
+  .zoom-img {
+    margin-bottom: 20px;
+  }
+
+  span.navbar-toggler-icon {
+    background-color: #fff !important;
+  }
+
+  .container.no-pd {
+    padding: 0px 20px;
+  }
+  li.nav-item {
+    text-align: center;
+  }
+
+  a.nav-link {
+    background-color: #541212;
+    padding: 7px 0px;
+    position: relative;
+    z-index: 999;
+  }
+
+  .banner-sec {
+    height: 400px;
+  }
+
+  .banner-table {
+    height: 400px;
+  }
+
+  .about-me-text h2 {
+    font-size: 30px;
+  }
+
+  .about-me-text p {
+    font-size: 16px;
+  }
+
+  .about-me-sec {
+    height: 500px;
+  }
+
+  .about-me-table {
+    height: 500px;
+  }
+
+  .banner-im-sec img {
+    display: none;
+  }
+
+  .portfolio-post {
+    text-align: center;
+  }
+
+  .portfolio-row {
+    display: inline-block;
+  }
+
+  .portfolio-post {
+    text-align: center;
+  }
+
+  .contact-text h2 {
+    font-size: 30px;
+  }
+
+  .contact-text p {
+    font-size: 15px;
+  }
+
+  .footer-text h2 {
+    font-size: 25px;
+  }
+
+  a.logo-sec {
+    width: 40%;
+  }
+  span.navbar-toggler-icon i {
+    margin-top: 5px;
+  }
+}

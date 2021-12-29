@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Welcome section css code here */
+
+a.logo-sec {
+  width: 20%;
+}
+
+a.logo-sec img {
+  width: 100%;
+}
+a.nav-link {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+a.nav-link:active {
+  color: #000;
+}
+a.nav-link:hover {
+  color: #000;
+}
+.banner-sec {
+  background-color: #8b9a46;
+  height: 650px;
+}
+.banner-im-sec img {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+}
+
+.banner-table {
+  display: table;
+  height: 650px;
+  width: 100%;
+}
+
+.banner-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.banner-text h2 {
+  font-size: 20px;
+  color: #ffe400;
+  font-weight: 300;
+}
+
+.banner-text h3 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 600;
+  margin-left: -4px;
+}
+
+.banner-text p {
+  font-size: 15px;
+  color: #541212;
+  font-weight: 600;
+}
+.welcome-sec {
+  position: relative;
+}
+
+.header-sec {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.banner-text {
+  position: relative;
+}
+.no-pd {
+  padding: 0px 0px;
+}
+
+/* About me section css code here */
+
+.about-me-sec {
+  background-color: #eeeeee;
+  height: 100vh;
+}
+.about-me-table {
+  display: table;
+  height: 100vh;
+  width: 100%;
+}
+
+.about-me-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.about-me-text h2 {
+  font-size: 45px;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.about-me-text p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about-me-text a {
+  display: inline-block;
+  color: #fff;
+  background-color: #548cff;
+  padding: 10px 30px;
+  font-size: 18px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+/* Portfolio section css code here */
+
+.portfolio-post img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.portfolio-row {
+  display: flex;
+}
+
+.portfolio-post {
+  flex-basis: 25%;
+  margin: 10px;
+}
+
+.portfolio-text h2 {
+  font-size: 45px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.portfolio-text p {
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.portfolio-text {
+  padding-top: 60px;
+}
+
+.portfolio-button-sec ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.portfolio-button-sec ul li {
+  display: inline-block;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 18px;
+  background-color: #548cff;
+  color: #fff;
+  padding: 2px 15px;
+  cursor: pointer;
+}
+
+.portfolio-post-all {
+  padding-bottom: 60px;
+}
+
+/* animation section css code here */
+
+.animation-sec {
+  background-color: #161853;
+  height: 100vh;
+  position: relative;
+}
+.animation-sec-text h2 {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.animation-sec-text {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  height: 20%;
+}
+
+/* Power zoom section css code here */
+
+.power-zoom-sec {
+  padding: 60px 0px;
+}
+
+.zoom-sec-text {
+  text-align: center;
+}
+.zoom-img img {
+  width: 100%;
+}
+
+.zoom-sec-text h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 30px;
+  color: #000;
+}
+
+/* Isotop Plugin css code here */
+.btn-sec ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.btn-sec ul li {
+  display: inline-block;
+  text-align: center;
+  background-color: deepskyblue;
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 9px 30px;
+}
+/* Contact section css code here */
+
+.contact-section {
+  padding: 60px 0px;
+}
+.contact-text {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.contact-text h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.contact-text p {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #ffe400;
+}
+
+.contact-section {
+  background-color: #baabda;
+}
+label.form-label {
+  color: #fff;
+}
+
+label.form-check-label {
+  color: #ec255a;
+}
+/* Footer section css code here */
+
+.footer-sec {
+  padding: 30px 0px;
+  background-color: #541212;
+}
+
+.footer-text h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 300;
+  text-shadow: 2px 1px #d9ff08;
+}
+
+ul.footer-icon {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  text-align: center;
+}
+
+ul.footer-icon li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+ul.footer-icon li i {
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer-logo img {
+  width: 30%;
+  text-align: center;
+}
+
+.footer-logo {
+  text-align: center;
+}
